@@ -3,13 +3,21 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: actividad5prueba
-  name: actividad5prueba
+    run: nginx
+    owner: CarlosS
+  name: nginx
 spec:
   containers:
-  - image: nginx
-    name: actividad5prueba
-    resources: {}
+    - image: nginx
+      name: nginx
+      volumeMounts:
+        - mountPath: "/scratch"
+          name: my-volume
+      resources: {}
+  volumes:
+    - name: my-volume
+      emptyDir:
+        sizeLimit: 50Mi
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
