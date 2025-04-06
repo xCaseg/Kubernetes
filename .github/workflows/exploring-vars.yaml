@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       Greeting: Hello
-      Last_Name: ${{ vars.Last_Name }}  # <- aquí importas tu variable del repo
+      Last_Name: ${{ vars.Last_Name }}  # <- Importar variable del repositorio
     steps:
       - name: "Say Hello Carlos it's Monday"
         run: echo "$Greeting $First_Name $Last_Name. Today is $DAY_OF_WEEK!"
