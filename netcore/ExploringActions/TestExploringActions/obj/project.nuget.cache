@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AOrHaDV/Gu4=",
+  "dgSpecHash": "nkqdEDjm2TQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\Universidad Semestre 6\\Kubernetes y Monitoreo\\ExploringActions\\ExploringActions\\TestExploringActions\\TestExploringActions.csproj",
+  "projectFilePath": "C:\\Users\\Beliel\\Desktop\\Universidad Semestre 6\\Kubernetes y Monitoreo\\Actividad 4\\Kubernetes\\netcore\\ExploringActions\\TestExploringActions\\TestExploringActions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beliel\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Beliel\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
